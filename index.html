@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- Font-Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- navbar section starts here -->
+    <nav class="navbar">
+        <div class="logo">JavaScript CRUD</div>
+        <div class="menu">
+            <a href="./index.html">Home</a>
+            <a href="./create.html">Create</a>
+        </div>
+    </nav>
+    <!-- navbar section ends here -->
+
+    <!-- main container section starts here -->
+    <div class="main-container">
+        <div class="row">
+            <h1>User List</h1>
+        </div>
+
+        <div class="row">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Email Id</th>
+                        <th>Gender</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="results">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- main container section ends here -->
+
+    <!-- read script starts here -->
+    <script src="assets/js/read.js"></script>
+
+
+</body>
+</html>
